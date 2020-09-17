@@ -20,7 +20,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.app.proffy"
+      "package": "com.nlw2.proffy.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
