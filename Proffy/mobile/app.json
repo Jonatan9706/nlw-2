@@ -1,15 +1,19 @@
 {
   "expo": {
-    "name": "mobile-proffy",
+    "name": "Proffy",
     "slug": "mobile-proffy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/landing.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,14 +21,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nlw2.proffy.app"
     },
     "android": {
       "package": "com.nlw2.proffy.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     },
-    "description": ""
+    "description": "",
+    "githubUrl": "https://github.com/Jonatan9706/nlw-2/tree/develop/Proffy"
   }
 }
